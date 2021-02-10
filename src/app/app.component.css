@@ -1,0 +1,41 @@
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+textarea {
+    width: 49%;
+    height: auto;
+    margin-right: .75em;
+    float: right;
+    resize: none;
+    font-size: small;
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    border-color:#ccc;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
